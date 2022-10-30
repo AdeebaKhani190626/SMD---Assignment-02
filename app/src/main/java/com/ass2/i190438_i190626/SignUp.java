@@ -138,6 +138,7 @@ public class SignUp extends AppCompatActivity {
         }
         if (terms.equals("true")) {
             // Agreed to the terms and conditions
+            // Thorugh CheckBox
         }
         else {
             Toast.makeText(this,"Kindly agree to the terms.",Toast.LENGTH_LONG).show();
