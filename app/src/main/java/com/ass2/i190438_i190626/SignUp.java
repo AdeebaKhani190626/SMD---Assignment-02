@@ -130,6 +130,7 @@ public class SignUp extends AppCompatActivity {
 
         if (gender.equals("male") || gender.equals("female") || gender.equals("unknown")) {
             // Gender = Male or Female or Unknown
+            // Selecting the image
         }
         else {
             Toast.makeText(this,"Specify your gender.",Toast.LENGTH_LONG).show();
