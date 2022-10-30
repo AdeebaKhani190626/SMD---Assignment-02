@@ -54,7 +54,7 @@ public class SignUp extends AppCompatActivity {
         g1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gender = "male";
+                gender = "Male";
             }
         });
 
