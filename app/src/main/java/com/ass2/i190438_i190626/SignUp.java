@@ -129,7 +129,7 @@ public class SignUp extends AppCompatActivity {
         boolean check = true;
 
         if (gender.equals("male") || gender.equals("female") || gender.equals("unknown")) {
-            // Gender = male
+            // Gender = Male or Female or Unknown
         }
         else {
             Toast.makeText(this,"Specify your gender.",Toast.LENGTH_LONG).show();
