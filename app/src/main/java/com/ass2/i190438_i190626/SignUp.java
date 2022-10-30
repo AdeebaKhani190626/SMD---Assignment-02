@@ -154,6 +154,7 @@ public class SignUp extends AppCompatActivity {
         pass = password.getText().toString().trim();
         boolean checks = true;
 
+        // Applying multiple checks
         if (n.isEmpty()) {
             name.setError("Full name is required!");
             name.requestFocus();
