@@ -180,7 +180,7 @@ public class SignUp extends AppCompatActivity {
             email.requestFocus();
             checks = false;
         }
-        // returns true if all checks satisfied
+        // returns true if all checks satisfied and false if even 1 check is not satisfied
         return checks;
     }
 }
