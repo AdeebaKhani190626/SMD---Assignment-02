@@ -28,8 +28,8 @@ public class SignUp extends AppCompatActivity {
     ImageView g1;
     ImageView g2;
     ImageView g3;
-    String gender="";
-    String terms="";
+    String gender;
+    String terms;
     String n,em,pass;
 
     @Override
