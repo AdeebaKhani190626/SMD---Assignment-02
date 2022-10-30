@@ -26,7 +26,8 @@ public class SignUp extends AppCompatActivity {
     private EditText name,email,password;
     private CheckBox agree;
     ImageView g1,g2,g3;
-    String gender="",terms="";
+    String gender="";
+    String terms="";
     String n,em,pass;
 
     @Override
