@@ -25,7 +25,9 @@ public class SignUp extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private EditText name,email,password;
     private CheckBox agree;
-    ImageView g1,g2,g3;
+    ImageView g1;
+    ImageView g2;
+    ImageView g3;
     String gender="";
     String terms="";
     String n,em,pass;
